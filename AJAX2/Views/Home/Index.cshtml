@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Ajax Calls</h1>
+
+<div class="row mt-5">
+    <div class="card">
+        <div class="card-header">
+            GET from the server
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <input type="button" class="btn btn-info" name="name" value="Get info from server" onclick="getTemp()"/>
+            </div>
+            <div class="row">
+                <input type="button" class="btn btn-success" name="name" value="Post info to the server" onclick="setTemp()" />
+            </div>
+        </div>
+    </div>
+</div>
+ @*ajax call is in site.js*@
